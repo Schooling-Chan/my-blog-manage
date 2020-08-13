@@ -1,0 +1,27 @@
+{
+    "name": "blog-manager",
+    "version": "0.0.1",
+    "description": "Joseph的博客后台",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Schooling-Chan/my-blog-manage.git"
+    },
+    "author": "Joseph",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Schooling-Chan/my-blog-manage/issues"
+    },
+    "homepage": "https://github.com/Schooling-Chan/my-blog-manage#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "crypto": "^1.0.1",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mysql": "^2.18.1"
+    }
+}
